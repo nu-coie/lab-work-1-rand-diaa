@@ -2,11 +2,13 @@
 
 int main(void)
 {
-  
-  // Step ( 1 ) : Print Hello, World
-  
-  
-  
-  //Step ( 2 ) : Print Hello, Your Name
+
+  printf("hello, world!\n");
+
+
+
+  string name = get_string ("what is your name?");
+  printf("my name is %s\n", name);
+  return 0;
 
 }
