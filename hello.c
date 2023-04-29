@@ -1,14 +1,16 @@
 #include <stdio.h>
+#include <string.h>
 
-int main(void)
-{
+int main() {
+    char name[50];
 
-  printf("hello, world!\n");
+    printf("What's your name? ");
+    scanf("%s", name);
 
+    printf("Hello, %s!\n", name);
 
-
-  string name = get_string ("what is your name?:");
-  printf("%s\n", name);
+    return 0;
+}
 
 
 }
