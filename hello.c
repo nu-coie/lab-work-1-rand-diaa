@@ -7,7 +7,7 @@ int main(void)
 
 
 
-  st name = get_string ("what is your name?");
+  string name = get_string ("what is your name?:");
   printf("my name is %s\n", name);
 
 
